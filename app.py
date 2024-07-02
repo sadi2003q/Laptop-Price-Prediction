@@ -9,21 +9,6 @@ pipe = pickle.load(open('pipe.pkl', 'rb'))
 
 st.title('Laptop Price Analysis')
 
-# company = st.selectbox('company', train['Company'].unique())
-# type = st.selectbox('Typename', train['TypeName'].unique())
-# ram = st.selectbox('Ram', train['Ram'].unique())
-# weight = st.selectbox('Weight', train['Weight'].unique())
-# touch = st.selectbox('isTouchScreen', train['isTouchScreen'].unique())
-# ips = st.selectbox('isIPS', train['isIPS'].unique())
-#
-# ppi = st.selectbox('ppi', train['PPI'].unique())
-# processor = st.selectbox('Processor', train['Processor'].unique())
-# ssd = st.selectbox('SSD', train['SSD'].unique())
-# hdd = st.selectbox('HDD', train['HDD'].unique())
-#
-# gpu = st.selectbox('GPU Brand', train['Gpu Brand'].unique())
-# os = st.selectbox('Os', train['Os'].unique())
-
 # brand
 company = st.selectbox('Brand',df['Company'].unique())
 
